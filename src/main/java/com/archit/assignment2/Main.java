@@ -22,7 +22,7 @@ public class Main {
             // Create a Blog instance with the data
             Blog blog = new Blog(blogPosts, people);
 
-            // Call getPostsByAuthorAge and print the results
+            // Call getPostsByAuthorAge and print the results for authors aged 25
             List<String> postsByAge = blog.getPostsByAuthorAge(25);
             System.out.println("Blog posts by authors with age 25: " + postsByAge);
 
